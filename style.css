@@ -1,0 +1,32 @@
+/* Custom Styles for College Event Management System */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+.event-card-img {
+    height: 180px;
+    object-fit: cover;
+}
+
+.gallery-img {
+    height: 220px;
+    object-fit: cover;
+    transition: transform 0.2s ease-in-out;
+}
+
+.gallery-img:hover {
+    transform: scale(1.03);
+}
+
+footer {
+    background-color: #1a1d20;
+    color: #dee2e6;
+}
